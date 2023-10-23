@@ -2,11 +2,9 @@ function Logo() {
   return (
     <>
       <img
-        className="object-cover absolute right-[6rem] top-[-5rem]"
+        className="object-fill -mt-36 -mb-10 md:-mt-0 md:-mb-10 relative md:absolute md:right-[-2rem] lg:right-0 2xl:right-[6rem] xl:top-[-5rem] md:h-[35rem] md:w-[35rem] lg:h-[40rem] lg:w-[40rem] xl:h-[50rem] xl:w-[50rem]"
         src="src\components\Hero\Logo.png"
         alt="Algozenith Logo"
-        height="800"
-        width="800"
       />
     </>
   );

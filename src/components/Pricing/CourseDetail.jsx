@@ -6,10 +6,7 @@ import CourseFeature from './CourseFeature';
 
 function CourseDetail() {
   return (
-    <div
-      className="border border-gray-400 w-96 h-[45rem] font-rubik rounded-md z-20 relative overflow-hidden"
-      style={{ boxShadow: '0 20px 75px rgba(5, 68, 94, 0.35)' }}
-    >
+    <div className="border border-gray-400 w-96 h-[45rem] font-rubik rounded-md mb-12 md:mb-0 z-20 relative overflow-hidden shadow-[0_12px_45px_rgba(5,_68,_94,_0.35)] md:shadow-[0_20px_75px_rgba(5,_68,_94,_0.35)]">
       <div className="w-full h-[25%] p-7 flex items-center -space-x-5">
         <div>
           <p className="text-sm font-bold font-dm-sans text-[#0F0F0F]">
@@ -44,7 +41,7 @@ function CourseDetail() {
 
         <button
           style={{ boxShadow: '0 0 150px rgba(255, 255, 255, 0.7)' }}
-          className="rounded-md px-28 py-2 w-[21rem] mx-auto font-dm-sans font-bold bg-gradient-to-br from-[#FFF] to-[#DFF6FF] text-[#043C53] flex items-center justify-center s shadow-[0_0_150px_rgba(255,_255,_255,_0.30)]"
+          className="rounded-md px-28 py-2 w-[21rem] mx-auto font-dm-sans font-bold bg-gradient-to-br from-[#FFF] to-[#DFF6FF] text-[#043C53] flex items-center justify-center shadow-[0_0_150px_rgba(255,_255,_255,_0.30)]"
         >
           Join Now <BsArrowRightShort className="" size={25} />
         </button>
