@@ -1,6 +1,6 @@
 import { BsArrowRightShort } from 'react-icons/bs';
-import grid from '../../../assets/grid.png';
-import azLogo from '../../../assets/az.png';
+import Grid from '../../../assets/grid.png';
+import AZLogo from '../../../assets/az.png';
 import CourseFeature from './CourseFeature';
 
 function CourseDetail() {
@@ -20,7 +20,7 @@ function CourseDetail() {
         </div>
 
         <img
-          src={azLogo}
+          src={AZLogo}
           alt="az logo"
           className="absolute opacity-[8%] h-48 object-cover right-[-2rem] top-[3px]"
         />
@@ -28,7 +28,7 @@ function CourseDetail() {
       <div className="relative w-full h-[75%] bg-[#05425C] text-white flex flex-col space-y-6 pt-4">
         <img
           className="absolute inset-0 w-full h-full opacity-5 -z-1"
-          src={grid}
+          src={Grid}
           alt="Grid"
         />
         <CourseFeature content="100+ Hrs Live Content" />
