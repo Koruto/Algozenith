@@ -1,4 +1,4 @@
-import AlgoLogo from '../../../assets/Logo.png';
+import AlgoLogo from '../../../assets/logo.png';
 
 function Logo() {
   return (
