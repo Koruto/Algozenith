@@ -1,6 +1,5 @@
 import { BsArrowRightShort } from 'react-icons/bs';
 import grid from '../../../assets/grid.png';
-import vector from '../../../assets/vector.png';
 import azLogo from '../../../assets/az.png';
 import CourseFeature from './CourseFeature';
 
